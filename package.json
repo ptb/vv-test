@@ -1,0 +1,53 @@
+{
+  "browserslist": [
+    "Android >= 67",
+    "Chrome >= 61",
+    "ChromeAndroid >= 69",
+    "Edge >= 16",
+    "Firefox >= 60",
+    "FirefoxAndroid >= 60",
+    "iOS >= 10.3",
+    "Opera >= 48",
+    "Safari >= 10.1"
+  ],
+  "dependencies": {
+    "@amory/style": "2020.5.6-0",
+    "prop-types": "15.7.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-scripts": "3.4.1",
+    "use-scroll-lock": "1.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "18.2.0"
+  },
+  "license": "Apache-2.0",
+  "prettier": {
+    "arrowParens": "always",
+    "bracketSpacing": true,
+    "endOfLine": "lf",
+    "htmlWhitespaceSensitivity": "strict",
+    "insertPragma": false,
+    "jsxBracketSameLine": false,
+    "jsxSingleQuote": false,
+    "printWidth": 50,
+    "proseWrap": "never",
+    "quoteProps": "preserve",
+    "semi": false,
+    "singleQuote": false,
+    "tabWidth": 2,
+    "trailingComma": "none",
+    "useTabs": false,
+    "vueIndentScriptAndStyle": true
+  },
+  "renovate": {
+    "extends": [
+      "config:base"
+    ]
+  },
+  "scripts": {
+    "build": "react-scripts build",
+    "start": "react-scripts start"
+  },
+  "version": "1.0.0"
+}

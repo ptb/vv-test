@@ -1,0 +1,113 @@
+{
+  "extends": [
+    "airbnb",
+    "airbnb/hooks"
+  ],
+  "rules": {
+    "comma-dangle": [
+      1,
+      "never"
+    ],
+    "func-call-spacing": [
+      1,
+      "always"
+    ],
+    "implicit-arrow-linebreak": [
+      1,
+      "below"
+    ],
+    "import/extensions": [
+      1,
+      "always",
+      {
+        "ignorePackages": true
+      }
+    ],
+    "import/prefer-default-export": 0,
+    "max-len": [
+      2,
+      {
+        "code": 78,
+        "comments": 78,
+        "ignoreComments": false,
+        "ignoreRegExpLiterals": true,
+        "ignoreStrings": true,
+        "ignoreTemplateLiterals": true,
+        "ignoreTrailingComments": false,
+        "ignoreUrls": true,
+        "tabWidth": 2
+      }
+    ],
+    "no-spaced-func": 0,
+    "no-unused-vars": [
+      2,
+      {
+        "args": "after-used",
+        "argsIgnorePattern": "^_",
+        "ignoreRestSiblings": false,
+        "vars": "all"
+      }
+    ],
+    "quote-props": [
+      1,
+      "always"
+    ],
+    "quotes": [
+      1,
+      "double"
+    ],
+    "react/forbid-prop-types": [
+      1,
+      {
+        "checkChildContextTypes": true,
+        "checkContextTypes": true,
+        "forbid": [
+          "any",
+          "array"
+        ]
+      }
+    ],
+    "react/jsx-fragments": [
+      1,
+      "element"
+    ],
+    "react/jsx-sort-props": [
+      1,
+      {
+        "callbacksLast": false,
+        "ignoreCase": true,
+        "noSortAlphabetically": false,
+        "reservedFirst": false,
+        "shorthandFirst": false,
+        "shorthandLast": false
+      }
+    ],
+    "react/require-default-props": 0,
+    "semi": [
+      1,
+      "never"
+    ],
+    "sort-keys": [
+      1,
+      "asc",
+      {
+        "caseSensitive": false,
+        "natural": true
+      }
+    ],
+    "sort-vars": [
+      1,
+      {
+        "ignoreCase": true
+      }
+    ],
+    "space-before-function-paren": [
+      1,
+      {
+        "anonymous": "always",
+        "asyncArrow": "always",
+        "named": "always"
+      }
+    ]
+  }
+}
