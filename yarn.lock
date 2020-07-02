@@ -2,12 +2,12 @@
 # yarn lockfile v1
 
 
-"@amory/style@2020.5.6-0":
-  version "2020.5.6-0"
-  resolved "https://registry.yarnpkg.com/@amory/style/-/style-2020.5.6-0.tgz#54a12385bd476d5755038c8fb4fa71f683e66ff6"
-  integrity sha512-Qwdhq2J+U8l4OROSL5Pro+9wKvGE7M8cT3rEfPIh88bGojJQtNmL5CswYi3ARvvW5S8AEfWKub1imnbRnUGgLg==
+"@amory/style@2020.7.2":
+  version "2020.7.2"
+  resolved "https://registry.yarnpkg.com/@amory/style/-/style-2020.7.2.tgz#7f84f98451b8849bedfe69081a6cebbaa8ce0e65"
+  integrity sha512-jVgRdIoCnmEujxuxw01fPyQ80QuxF8N/04H3XcGMmy9tMuKX9JGfhkATcOm4Jdg9DELzX5PYBEY1y/rZywyJTw==
   dependencies:
-    "@babel/runtime" "7.9.6"
+    "@babel/runtime" "7.10.4"
     core-js "3.6.5"
 
 "@babel/code-frame@7.8.3":
@@ -1070,17 +1070,17 @@
     core-js-pure "^3.0.0"
     regenerator-runtime "^0.13.4"
 
+"@babel/runtime@7.10.4":
+  version "7.10.4"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.10.4.tgz#a6724f1a6b8d2f6ea5236dbfe58c7d7ea9c5eb99"
+  integrity sha512-UpTN5yUJr9b4EX2CnGNWIvER7Ab83ibv0pcvvHc4UOdrBI5jb8bj+32cCwPX6xu0mt2daFNjYhoi+X7beH0RSw==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@babel/runtime@7.9.0":
   version "7.9.0"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.9.0.tgz#337eda67401f5b066a6f205a3113d4ac18ba495b"
   integrity sha512-cTIudHnzuWLS56ik4DnRnqqNf8MkdUzV4iFFI1h7Jo9xvrpQROYaAnaSd2mHLQAzzZAPfATynX5ord6YlNYNMA==
-  dependencies:
-    regenerator-runtime "^0.13.4"
-
-"@babel/runtime@7.9.6":
-  version "7.9.6"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.9.6.tgz#a9102eb5cadedf3f31d08a9ecf294af7827ea29f"
-  integrity sha512-64AF1xY3OAkFHqOb9s4jpgk1Mm5vDZ4L3acHvAml+53nO1XbXLuDodsVpO4OIUsmemlUHMxNdYMNJmsvOwLrvQ==
   dependencies:
     regenerator-runtime "^0.13.4"
 
