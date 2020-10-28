@@ -13,8 +13,8 @@
   "dependencies": {
     "@amory/style": "2020.5.6-0",
     "prop-types": "15.7.2",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
     "react-scripts": "3.4.1",
     "use-scroll-lock": "1.0.0"
   },
